@@ -12,8 +12,10 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+var dbPath = Path.Combine(app.Environment.ContentRootPath, "smashcollections.db");
+
 builder.Services.AddDbContext<MaleFashion.Web.Data.AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite($"Data Source={dbPath}"));
 
 builder.Services.AddScoped<MaleFashion.Web.Services.ProductRepository>();
 builder.Services.AddScoped<MaleFashion.Web.Services.UserRepository>();
