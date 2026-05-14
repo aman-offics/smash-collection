@@ -1,0 +1,79 @@
+@model IEnumerable<MaleFashion.Web.Models.BlogPost>
+@{
+    ViewData["Title"] = "Our Blog";
+}
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-blog set-bg" data-setbg="@Url.Content("~/img/breadcrumb-bg.jpg")">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Our Blog</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Blog Section Begin -->
+    <section class="blog spad">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <div class="blog__item__pic set-bg" data-setbg="@Url.Content("~" + item.ImageUrl)"></div>
+                            <div class="blog__item__text">
+                                <span><img src="~/img/icon/calendar.png" alt=""> @item.Date.ToString("dd MMMM yyyy")</span>
+                                <h5>@item.Title</h5>
+                                <a href="@Url.Action("Details", "Blog", new { id = item.Id })">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- FAQ Section Begin -->
+    <section class="faq spad" style="background: #f3f2ee; color: #111111;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <span>Questions</span>
+                        <h2>Frequently Asked Questions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="faq__item" style="margin-bottom: 30px;">
+                        <h5 style="color: #e53637; font-weight: 700; margin-bottom: 15px;">What is Smash Collections?</h5>
+                        <p style="color: #3d3d3d;">Smash Collections is your premium destination for the latest in boys' material, including high-quality clothing, shoes, and cooling glasses, all delivered with a passion for style.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="faq__item" style="margin-bottom: 30px;">
+                        <h5 style="color: #e53637; font-weight: 700; margin-bottom: 15px;">Do you sell shoes?</h5>
+                        <p style="color: #3d3d3d;">Yes! We have a dedicated shoe shop section with a wide variety of styles to match your collection.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="faq__item" style="margin-bottom: 30px;">
+                        <h5 style="color: #e53637; font-weight: 700; margin-bottom: 15px;">Is there a physical shop?</h5>
+                        <p style="color: #3d3d3d;">We are an integrated dress and shoe shop tailored for modern fashion needs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="faq__item" style="margin-bottom: 30px;">
+                        <h5 style="color: #e53637; font-weight: 700; margin-bottom: 15px;">How do I contact support?</h5>
+                        <p style="color: #3d3d3d;">You can reach us through our contacts page for any inquiries about our collections.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section End -->

@@ -1,0 +1,194 @@
+@model IEnumerable<MaleFashion.Web.Models.Product>
+@{
+    ViewData["Title"] = "Shop";
+}
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h4>Shop</h4>
+                        <div class="breadcrumb__links">
+                            <a href="@Url.Action("Index", "Home")">Home</a>
+                            <span>Shop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Shop Section Begin -->
+    <section class="shop spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="shop__sidebar">
+                        <div class="shop__sidebar__search">
+                            <form asp-action="Index" method="get">
+                                <input type="text" name="search" placeholder="Search..." value="@ViewBag.CurrentSearch">
+                                <button type="submit"><span class="icon_search"></span></button>
+                            </form>
+                        </div>
+                        <div class="shop__sidebar__accordion">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__categories">
+                                                <ul class="nice-scroll">
+                                                    <li class="@(ViewBag.CurrentCategory == "Jackets" ? "active" : "")"><a href="@Url.Action("Index", new { category = "Jackets", brand = ViewBag.CurrentBrand, priceRange = ViewBag.CurrentPriceRange, sortOrder = ViewBag.CurrentSortOrder })">Jackets</a></li>
+                                                    <li class="@(ViewBag.CurrentCategory == "Clothing" ? "active" : "")"><a href="@Url.Action("Index", new { category = "Clothing", brand = ViewBag.CurrentBrand, priceRange = ViewBag.CurrentPriceRange, sortOrder = ViewBag.CurrentSortOrder })">Clothing</a></li>
+                                                    <li class="@(ViewBag.CurrentCategory == "Shoes" ? "active" : "")"><a href="@Url.Action("Index", new { category = "Shoes", brand = ViewBag.CurrentBrand, priceRange = ViewBag.CurrentPriceRange, sortOrder = ViewBag.CurrentSortOrder })">Shoes</a></li>
+                                                    <li class="@(ViewBag.CurrentCategory == "Accessories" ? "active" : "")"><a href="@Url.Action("Index", new { category = "Accessories", brand = ViewBag.CurrentBrand, priceRange = ViewBag.CurrentPriceRange, sortOrder = ViewBag.CurrentSortOrder })">Accessories</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseTwo">Branding</a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__brand">
+                                                <ul>
+                                                    <li class="@(ViewBag.CurrentBrand == "Louis Vuitton" ? "active" : "")"><a href="@Url.Action("Index", new { brand = "Louis Vuitton", category = ViewBag.CurrentCategory, priceRange = ViewBag.CurrentPriceRange, sortOrder = ViewBag.CurrentSortOrder })">Louis Vuitton</a></li>
+                                                    <li class="@(ViewBag.CurrentBrand == "Chanel" ? "active" : "")"><a href="@Url.Action("Index", new { brand = "Chanel", category = ViewBag.CurrentCategory, priceRange = ViewBag.CurrentPriceRange, sortOrder = ViewBag.CurrentSortOrder })">Chanel</a></li>
+                                                    <li class="@(ViewBag.CurrentBrand == "Hermes" ? "active" : "")"><a href="@Url.Action("Index", new { brand = "Hermes", category = ViewBag.CurrentCategory, priceRange = ViewBag.CurrentPriceRange, sortOrder = ViewBag.CurrentSortOrder })">Hermes</a></li>
+                                                    <li class="@(ViewBag.CurrentBrand == "Gucci" ? "active" : "")"><a href="@Url.Action("Index", new { brand = "Gucci", category = ViewBag.CurrentCategory, priceRange = ViewBag.CurrentPriceRange, sortOrder = ViewBag.CurrentSortOrder })">Gucci</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__price">
+                                                <ul>
+                                                    <li class="@(ViewBag.CurrentPriceRange == "₹0 - ₹2000" ? "active" : "")"><a href="@Url.Action("Index", new { priceRange = "₹0 - ₹2000", category = ViewBag.CurrentCategory, brand = ViewBag.CurrentBrand, sortOrder = ViewBag.CurrentSortOrder })">₹0 - ₹2000</a></li>
+                                                    <li class="@(ViewBag.CurrentPriceRange == "₹2000 - ₹5000" ? "active" : "")"><a href="@Url.Action("Index", new { priceRange = "₹2000 - ₹5000", category = ViewBag.CurrentCategory, brand = ViewBag.CurrentBrand, sortOrder = ViewBag.CurrentSortOrder })">₹2000 - ₹5000</a></li>
+                                                    <li class="@(ViewBag.CurrentPriceRange == "₹5000 - ₹10000" ? "active" : "")"><a href="@Url.Action("Index", new { priceRange = "₹5000 - ₹10000", category = ViewBag.CurrentCategory, brand = ViewBag.CurrentBrand, sortOrder = ViewBag.CurrentSortOrder })">₹5000 - ₹10000</a></li>
+                                                    <li class="@(ViewBag.CurrentPriceRange == "10000+" ? "active" : "")"><a href="@Url.Action("Index", new { priceRange = "10000+", category = ViewBag.CurrentCategory, brand = ViewBag.CurrentBrand, sortOrder = ViewBag.CurrentSortOrder })">10000+</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="shop__product__option">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__left">
+                                    <p>Showing @(((ViewBag.CurrentPage - 1) * ViewBag.PageSize) + 1)–@(System.Math.Min((int)ViewBag.CurrentPage * (int)ViewBag.PageSize, (int)ViewBag.TotalCount)) of @ViewBag.TotalCount results</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__right">
+                                    <p>Sort by Price:</p>
+                                    <select id="sortOrderSelect">
+                                        <option value="" selected="@(string.IsNullOrEmpty(ViewBag.CurrentSortOrder))">Default</option>
+                                        <option value="PriceLowToHigh" selected="@(ViewBag.CurrentSortOrder == "PriceLowToHigh")">Low To High</option>
+                                        <option value="PriceHighToLow" selected="@(ViewBag.CurrentSortOrder == "PriceHighToLow")">High To Low</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @section Scripts {
+                        <script>
+                            $(document).ready(function () {
+                                $('#sortOrderSelect').on('change', function() {
+                                    var sortOrder = $(this).val();
+                                    var url = new URL(window.location.href);
+                                    if (sortOrder) {
+                                        url.searchParams.set('sortOrder', sortOrder);
+                                    } else {
+                                        url.searchParams.delete('sortOrder');
+                                    }
+                                    window.location.href = url.toString();
+                                });
+                            });
+                        </script>
+                    }
+                    <div class="row">
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item @(item.Label == "Sale" ? "sale" : "")" 
+                                     ondblclick="window.location.href='@Url.Action("Details", "Shop", new { id = item.Id })'"
+                                     style="cursor: pointer;">
+                                    <div class="product__item__pic set-bg" data-setbg="@(item.ImageUrl?.StartsWith("http") == true || item.ImageUrl?.StartsWith("data:") == true ? item.ImageUrl : Url.Content("~" + (item.ImageUrl?.StartsWith("/") == true ? "" : "/") + item.ImageUrl))">
+                                        @if (!string.IsNullOrEmpty(item.Label))
+                                        {
+                                            <span class="label">@item.Label</span>
+                                        }
+                                        <ul class="product__hover">
+                                            <li><a href="@Url.Action("AddToWishlist", "Wishlist", new { id = item.Id })" class="ajax-wishlist"><i class="fa fa-heart-o"></i><span>Wishlist</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <h6>@item.Name</h6>
+                                        <form asp-controller="Cart" asp-action="AddToCart" method="post" class="ajax-cart-form" style="display:inline;">
+                                            <input type="hidden" name="id" value="@item.Id" />
+                                            <input type="hidden" name="quantity" value="1" />
+                                            <button type="submit" class="add-cart" style="border:none; background:none; cursor:pointer;">+ Add To Cart</button>
+                                        </form>
+                                        <div class="rating">
+                                            @for (int i = 0; i < item.Rating; i++)
+                                            {
+                                                <i class="fa fa-star"></i>
+                                            }
+                                            @for (int i = item.Rating; i < 5; i++)
+                                            {
+                                                <i class="fa fa-star-o"></i>
+                                            }
+                                        </div>
+                                        <h5>₹@item.Price</h5>
+                                        <div class="product__color__select">
+                                            <label for="pc-4-@item.Id">
+                                                <input type="radio" id="pc-4-@item.Id">
+                                            </label>
+                                            <label class="active black" for="pc-5-@item.Id">
+                                                <input type="radio" id="pc-5-@item.Id">
+                                            </label>
+                                            <label class="grey" for="pc-6-@item.Id">
+                                                <input type="radio" id="pc-6-@item.Id">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="product__pagination">
+                                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                                {
+                                    <a class="@(ViewBag.CurrentPage == i ? "active" : "")" href="@Url.Action("Index", new { page = i, search = ViewBag.CurrentSearch, category = ViewBag.CurrentCategory, brand = ViewBag.CurrentBrand, size = ViewBag.CurrentSize, color = ViewBag.CurrentColor, tag = ViewBag.CurrentTag, priceRange = ViewBag.CurrentPriceRange, sortOrder = ViewBag.CurrentSortOrder })">@i</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Shop Section End -->

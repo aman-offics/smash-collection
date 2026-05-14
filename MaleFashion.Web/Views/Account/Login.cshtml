@@ -1,0 +1,69 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Sign In</h4>
+                    <div class="breadcrumb__links">
+                        <a href="@Url.Action("Index", "Home")">Home</a>
+                        <span>Sign In</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+<section class="checkout spad">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="checkout__form">
+                    <form action="@Url.Action("Login", "Account")" method="post">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h6 class="checkout__title">Welcome Back</h6>
+                                @if (TempData["SuccessMessage"] != null)
+                                {
+                                    <div class="alert alert-success">
+                                        @TempData["SuccessMessage"]
+                                    </div>
+                                }
+                                @if (ViewBag.Error != null)
+                                {
+                                    <div class="alert alert-danger">
+                                        @ViewBag.Error
+                                    </div>
+                                }
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="checkout__input">
+                                            <p>Username<span>*</span></p>
+                                            <input type="text" name="username" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="checkout__input">
+                                            <p>Password<span>*</span></p>
+                                            <input type="password" name="password" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 text-center">
+                                        <button type="submit" class="site-btn" style="width: 100%; margin-bottom: 15px;">SIGN IN</button>
+                                        <p>Don't have an account? <a href="@Url.Action("Register", "Account")" style="color: #e53637; font-weight: 700;">Sign up here</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

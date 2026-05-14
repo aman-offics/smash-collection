@@ -1,0 +1,60 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Admin Dashboard</h4>
+                    <div class="breadcrumb__links">
+                        <a href="/">Home</a>
+                        <span>Admin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+<section class="admin-dashboard spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="admin-sidebar">
+                    <ul class="list-group">
+                        <li class="list-group-item active"><a href="/Admin/Index" class="text-white">Dashboard</a></li>
+                        <li class="list-group-item"><a href="/Admin/Users" class="text-dark">Manage Users</a></li>
+                        <li class="list-group-item"><a href="/Admin/Products" class="text-dark">Manage Products</a></li>
+                        <li class="list-group-item"><a href="/Admin/Messages" class="text-dark">Messages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card text-center mb-4">
+                            <div class="card-body">
+                                <h3>@ViewBag.TotalUsers</h3>
+                                <p>Total Registered Users</p>
+                                <a href="/Admin/Users" class="primary-btn mt-3">View Users</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card text-center mb-4">
+                            <div class="card-body">
+                                <h3>@ViewBag.TotalProducts</h3>
+                                <p>Total Products</p>
+                                <a href="/Admin/Products" class="primary-btn mt-3">Manage Products</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,86 @@
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+    <!-- Map Begin -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15655.23456789!2d79.5463!3d11.7709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54a79666666667%3A0x6666666666666666!2sPanruti%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1704732000000!5m2!1sen!2sin" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <!-- Map End -->
+
+    <!-- Contact Section Begin -->
+    <section class="contact spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="contact__text">
+                        <div class="section-title">
+                            <span>Information</span>
+                            <h2>Contact Us</h2>
+                            <p>Discover the latest in fashion excellence at SMASH Collections. We bring you curated styles and premium quality to make every moment special.</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <h4>Panruti Branch</h4>
+                                <p>No 2 EMC COMPLEX, LINK ROAD <br />PANRUTI - 607106 <br />CELL: 7200490046</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="contact__form">
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" name="name" placeholder="Name" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="email" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="col-lg-12">
+                                    <textarea name="message" placeholder="Message" required></textarea>
+                                    <button type="submit" class="site-btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#contact-form').submit(function (e) {
+                e.preventDefault();
+                var form = $(this);
+                var formData = form.serialize();
+                var btn = form.find('button[type="submit"]');
+                var originalText = btn.text();
+
+                btn.text('Sending...').prop('disabled', true);
+
+                $.ajax({
+                    url: '/Home/SubmitContactMessage',
+                    type: 'POST',
+                    data: formData,
+                    success: function (response) {
+                        btn.text(originalText).prop('disabled', false);
+                        if (response.success) {
+                            showToast(response.message, 'success');
+                            form[0].reset();
+                        } else {
+                            showToast(response.message, 'error');
+                        }
+                    },
+                    error: function () {
+                        btn.text(originalText).prop('disabled', false);
+                        showToast('An error occurred. Please try again.', 'error');
+                    }
+                });
+            });
+        });
+    </script>
+}

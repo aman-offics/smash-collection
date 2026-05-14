@@ -1,0 +1,100 @@
+@model MaleFashion.Web.Models.Product
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Edit Product</h4>
+                    <div class="breadcrumb__links">
+                        <a href="/">Home</a>
+                        <a href="/Admin">Admin</a>
+                        <a href="/Admin/Products">Products</a>
+                        <span>Edit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="admin-users spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="admin-sidebar">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="/Admin/Index" class="text-dark">Dashboard</a></li>
+                        <li class="list-group-item"><a href="/Admin/Users" class="text-dark">Manage Users</a></li>
+                        <li class="list-group-item active"><a href="/Admin/Products" class="text-white">Manage Products</a></li>
+                        <li class="list-group-item"><a href="/Admin/Messages" class="text-dark">Messages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="card">
+                    <div class="card-body">
+                        <form asp-action="EditProduct" method="post">
+                            <input type="hidden" asp-for="Id" />
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label>Product Name</label>
+                                    <input type="text" class="form-control" asp-for="Name" required>
+                                </div>
+                                <div class="col-md-3 form-group">
+                                    <label>Price (₹)</label>
+                                    <input type="number" step="0.01" class="form-control" asp-for="Price" required>
+                                </div>
+                                <div class="col-md-3 form-group">
+                                    <label>Old Price (Optional)</label>
+                                    <input type="number" step="0.01" class="form-control" asp-for="OldPrice">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label>Image URL</label>
+                                    <input type="text" class="form-control" asp-for="ImageUrl" required>
+                                </div>
+                                <div class="col-md-3 form-group">
+                                    <label>Label</label>
+                                    <input type="text" class="form-control" asp-for="Label">
+                                </div>
+                                <div class="col-md-3 form-group">
+                                    <label>Rating (1-5)</label>
+                                    <input type="number" class="form-control" asp-for="Rating" min="1" max="5">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label>Category</label>
+                                    <input type="text" class="form-control" asp-for="Category" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label>Brand</label>
+                                    <input type="text" class="form-control" asp-for="Brand" required>
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label>Description</label>
+                                    <textarea class="form-control" asp-for="Description" rows="3" required></textarea>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label>Colors</label>
+                                    <input type="text" class="form-control" name="colorsInput" value="@ViewBag.ColorsInput">
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label>Sizes</label>
+                                    <input type="text" class="form-control" name="sizesInput" value="@ViewBag.SizesInput">
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label>Tags</label>
+                                    <input type="text" class="form-control" name="tagsInput" value="@ViewBag.TagsInput">
+                                </div>
+                            </div>
+                            <button type="submit" class="site-btn mt-3">Save Changes</button>
+                            <a href="/Admin/Products" class="btn btn-secondary mt-3 ml-2">Cancel</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

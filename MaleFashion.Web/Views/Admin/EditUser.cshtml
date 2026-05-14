@@ -1,0 +1,72 @@
+@model MaleFashion.Web.Models.User
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Edit User</h4>
+                    <div class="breadcrumb__links">
+                        <a href="/">Home</a>
+                        <a href="/Admin">Admin</a>
+                        <a href="/Admin/Users">Users</a>
+                        <span>Edit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+<section class="admin-users spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="admin-sidebar">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="/Admin/Index" class="text-dark">Dashboard</a></li>
+                        <li class="list-group-item active"><a href="/Admin/Users" class="text-white">Manage Users</a></li>
+                        <li class="list-group-item"><a href="/Admin/Products" class="text-dark">Manage Products</a></li>
+                        <li class="list-group-item"><a href="/Admin/Messages" class="text-dark">Messages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Edit @Model.Username</h4>
+                        <form asp-action="EditUser" method="post">
+                            <input type="hidden" asp-for="Id" />
+                            <div class="form-group">
+                                <label>Username (Read-only)</label>
+                                <input type="text" class="form-control" asp-for="Username" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" class="form-control" asp-for="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="text" class="form-control" asp-for="PhoneNumber">
+                            </div>
+                            @if (Model.Username.ToLower() != "admin")
+                            {
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" asp-for="IsAdmin">
+                                    <label class="form-check-label" for="IsAdmin">Is Admin</label>
+                                </div>
+                            }
+                            <button type="submit" class="site-btn">Save Changes</button>
+                            <a href="/Admin/Users" class="btn btn-secondary ml-3">Cancel</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

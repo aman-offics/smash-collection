@@ -1,0 +1,76 @@
+@model MaleFashion.Web.Models.User
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>My Profile</h4>
+                    <div class="breadcrumb__links">
+                        <a href="@Url.Action("Index", "Home")">Home</a>
+                        <span>Profile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+<!-- Profile Section Begin -->
+<section class="checkout spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="checkout__order" style="padding: 30px;">
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <i class="fa fa-user-circle-o" style="font-size: 80px; color: #111111;"></i>
+                        <h4 style="margin-top: 15px;">@Model.Username</h4>
+                    </div>
+                    <ul class="checkout__total__all" style="border-top: 1px solid #d7d7d7; padding-top: 20px; margin-bottom: 20px;">
+                        <li><a href="#" style="color: #111111; font-weight: 700; text-decoration: none;">Profile Details</a></li>
+                        <li style="margin-top: 15px;"><a href="#" style="color: #666666; text-decoration: none;">Order History <span style="float: right; color: #e53637; font-size: 12px; font-weight: 700; background: #f3f2ee; padding: 2px 8px; border-radius: 20px;">Soon</span></a></li>
+                        <li style="margin-top: 15px;"><a href="#" style="color: #666666; text-decoration: none;">Saved Addresses <span style="float: right; color: #e53637; font-size: 12px; font-weight: 700; background: #f3f2ee; padding: 2px 8px; border-radius: 20px;">Soon</span></a></li>
+                        <li style="margin-top: 15px;"><a href="@Url.Action("Logout", "Account")" style="color: #e53637; text-decoration: none; font-weight: 700;">Sign Out</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="checkout__form">
+                    <h6 class="checkout__title">Account Details</h6>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="checkout__input">
+                                <p>Username</p>
+                                <input type="text" value="@Model.Username" readonly style="background-color: #f3f2ee; color: #b7b7b7;">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="checkout__input">
+                                <p>Email Address</p>
+                                <input type="email" value="@Model.Email" readonly style="background-color: #f3f2ee; color: #b7b7b7;">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="checkout__input">
+                                <p>Phone Number</p>
+                                <input type="text" value="@Model.PhoneNumber" readonly style="background-color: #f3f2ee; color: #b7b7b7;">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="checkout__input">
+                                <p>Password</p>
+                                <input type="password" value="********" readonly style="background-color: #f3f2ee; color: #b7b7b7;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Profile Section End -->

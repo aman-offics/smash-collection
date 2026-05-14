@@ -1,0 +1,289 @@
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\jquery.slicknav.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\style.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\site.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery\dist\jquery.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery-validation\LICENSE.md
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\fonts\fontawesome-webfont.svg
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\jquery.countdown.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\jquery-3.3.1.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\bootstrap.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\owl.carousel.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\fonts\ElegantIcons.svg
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery\LICENSE.txt
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\favicon.ico
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery\dist\jquery.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\mixitup.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\bootstrap.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\jquery.nice-select.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\main.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\slicknav.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\site.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\fonts\FontAwesome.otf
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery\dist\jquery.min.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\jquery.nicescroll.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\elegant-icons.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\nice-select.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\magnific-popup.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\style.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\dark-mode.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\owl.carousel.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\css\font-awesome.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\js\jquery.magnific-popup.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\SMASH DRESS SHOP PROJECT\DRESS TEMPLATES\malefashion-master\MaleFashion.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\css\bootstrap.min.css
+wwwroot\css\dark-mode.css
+wwwroot\css\elegant-icons.css
+wwwroot\css\font-awesome.min.css
+wwwroot\css\magnific-popup.css
+wwwroot\css\nice-select.css
+wwwroot\css\owl.carousel.min.css
+wwwroot\css\site.css
+wwwroot\css\slicknav.min.css
+wwwroot\css\style.css
+wwwroot\css\style.css.map
+wwwroot\favicon.ico
+wwwroot\fonts\ElegantIcons.eot
+wwwroot\fonts\ElegantIcons.svg
+wwwroot\fonts\ElegantIcons.ttf
+wwwroot\fonts\ElegantIcons.woff
+wwwroot\fonts\FontAwesome.otf
+wwwroot\fonts\fontawesome-webfont.eot
+wwwroot\fonts\fontawesome-webfont.svg
+wwwroot\fonts\fontawesome-webfont.ttf
+wwwroot\fonts\fontawesome-webfont.woff
+wwwroot\fonts\fontawesome-webfont.woff2
+wwwroot\img\about\about-us.jpg
+wwwroot\img\about\team-1.jpg
+wwwroot\img\about\team-2.jpg
+wwwroot\img\about\team-3.jpg
+wwwroot\img\about\team-4.jpg
+wwwroot\img\about\testimonial-author.jpg
+wwwroot\img\about\testimonial-pic.jpg
+wwwroot\img\AMAN.jpg
+wwwroot\img\banner\banner-1.jpg
+wwwroot\img\banner\banner-2.jpg
+wwwroot\img\banner\banner-3.jpg
+wwwroot\img\blog\blog-1.jpg
+wwwroot\img\blog\blog-2.jpg
+wwwroot\img\blog\blog-3.jpg
+wwwroot\img\blog\blog-4.jpg
+wwwroot\img\blog\blog-5.jpg
+wwwroot\img\blog\blog-6.jpg
+wwwroot\img\blog\blog-7.jpg
+wwwroot\img\blog\blog-8.jpg
+wwwroot\img\blog\blog-9.jpg
+wwwroot\img\blog\details\blog-author.jpg
+wwwroot\img\blog\details\blog-details.jpg
+wwwroot\img\breadcrumb-bg.jpg
+wwwroot\img\clients\client-1.png
+wwwroot\img\clients\client-2.png
+wwwroot\img\clients\client-3.png
+wwwroot\img\clients\client-4.png
+wwwroot\img\clients\client-5.png
+wwwroot\img\clients\client-6.png
+wwwroot\img\clients\client-7.png
+wwwroot\img\clients\client-8.png
+wwwroot\img\footer-logo.png
+wwwroot\img\hero\hero-1.jpg
+wwwroot\img\hero\hero-2.jpg
+wwwroot\img\hero\S1.jpg
+wwwroot\img\hero\SMASH.jpg
+wwwroot\img\icon\calendar.png
+wwwroot\img\icon\cart.png
+wwwroot\img\icon\compare.png
+wwwroot\img\icon\heart.png
+wwwroot\img\icon\search.png
+wwwroot\img\IMG12.png
+wwwroot\img\IMG13.png
+wwwroot\img\instagram\instagram-1.jpg
+wwwroot\img\instagram\instagram-2.jpg
+wwwroot\img\instagram\instagram-3.jpg
+wwwroot\img\instagram\instagram-4.jpg
+wwwroot\img\instagram\instagram-5.jpg
+wwwroot\img\instagram\instagram-6.jpg
+wwwroot\img\logo.png
+wwwroot\img\one.jpg
+wwwroot\img\payment.png
+wwwroot\img\product\casual-hoodie.png
+wwwroot\img\product\designer-sunglasses.png
+wwwroot\img\product\formal-suit.png
+wwwroot\img\product\luxury-jacket.png
+wwwroot\img\product\premium-watch.png
+wwwroot\img\product\product-1.jpg
+wwwroot\img\product\product-10.jpg
+wwwroot\img\product\product-11.jpg
+wwwroot\img\product\product-12.jpg
+wwwroot\img\product\product-13.jpg
+wwwroot\img\product\product-14.jpg
+wwwroot\img\product\product-2.jpg
+wwwroot\img\product\product-3.jpg
+wwwroot\img\product\product-4.jpg
+wwwroot\img\product\product-5.jpg
+wwwroot\img\product\product-6.jpg
+wwwroot\img\product\product-7.jpg
+wwwroot\img\product\product-8.jpg
+wwwroot\img\product\product-9.jpg
+wwwroot\img\product\summer-polo.png
+wwwroot\img\product-sale.png
+wwwroot\img\S2.png
+wwwroot\img\shop-details\details-payment.png
+wwwroot\img\shop-details\product-big.png
+wwwroot\img\shop-details\product-big-2.png
+wwwroot\img\shop-details\product-big-3.png
+wwwroot\img\shop-details\product-big-4.png
+wwwroot\img\shop-details\thumb-1.png
+wwwroot\img\shop-details\thumb-2.png
+wwwroot\img\shop-details\thumb-3.png
+wwwroot\img\shop-details\thumb-4.png
+wwwroot\img\shopping-cart\cart-1.jpg
+wwwroot\img\shopping-cart\cart-2.jpg
+wwwroot\img\shopping-cart\cart-3.jpg
+wwwroot\img\shopping-cart\cart-4.jpg
+wwwroot\img\smash_logo_black.png
+wwwroot\img\smmc3back1.jpg
+wwwroot\img\ssss.png
+wwwroot\img\wwwww.png
+wwwroot\js\bootstrap.min.js
+wwwroot\js\jquery.countdown.min.js
+wwwroot\js\jquery.magnific-popup.min.js
+wwwroot\js\jquery.nicescroll.min.js
+wwwroot\js\jquery.nice-select.min.js
+wwwroot\js\jquery.slicknav.js
+wwwroot\js\jquery-3.3.1.min.js
+wwwroot\js\main.js
+wwwroot\js\mixitup.min.js
+wwwroot\js\owl.carousel.min.js
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\sass\_about.scss
+wwwroot\sass\_base.scss
+wwwroot\sass\_blog.scss
+wwwroot\sass\_blog-details.scss
+wwwroot\sass\_blog-sidebar.scss
+wwwroot\sass\_breadcrumb.scss
+wwwroot\sass\_checkout.scss
+wwwroot\sass\_contact.scss
+wwwroot\sass\_footer.scss
+wwwroot\sass\_header.scss
+wwwroot\sass\_hero.scss
+wwwroot\sass\_home-page.scss
+wwwroot\sass\_mixins.scss
+wwwroot\sass\_product.scss
+wwwroot\sass\_responsive.scss
+wwwroot\sass\_shop.scss
+wwwroot\sass\_shop-details.scss
+wwwroot\sass\_shopping-cart.scss
+wwwroot\sass\_variable.scss
+wwwroot\sass\style.scss
