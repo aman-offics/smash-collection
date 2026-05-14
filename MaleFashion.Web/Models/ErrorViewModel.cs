@@ -1,4 +1,4 @@
-namespace MaleFashion.Web.Models;
+    namespace MaleFashion.Web.Models;
 
 public class ErrorViewModel
 {
