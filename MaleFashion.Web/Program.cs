@@ -5,18 +5,23 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddDistributedMemoryCache();
+
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
-var dbPath = Path.Combine(app.Environment.ContentRootPath, "smashcollections.db");
+
+// SQLite Database Path
+var dbPath = Path.Combine(Directory.GetCurrentDirectory(), "smashcollections.db");
 
 builder.Services.AddDbContext<MaleFashion.Web.Data.AppDbContext>(options =>
     options.UseSqlite($"Data Source={dbPath}"));
 
+// Repositories
 builder.Services.AddScoped<MaleFashion.Web.Services.ProductRepository>();
 builder.Services.AddScoped<MaleFashion.Web.Services.UserRepository>();
 
@@ -26,17 +31,17 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseAuthorization();
-app.UseSession();
 
+app.UseSession();
 
 app.MapStaticAssets();
 
@@ -45,5 +50,10 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<MaleFashion.Web.Data.AppDbContext>();
+    db.Database.EnsureCreated();
+}
 
 app.Run();
